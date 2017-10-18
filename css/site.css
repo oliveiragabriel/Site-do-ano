@@ -1,0 +1,153 @@
+body{
+	background-image: url(http://static.tumblr.com/b9su5vg/X0Popk24k/subtle_dots__2x.png);
+	width:1080px;
+	text-align: center;
+}
+
+#logo{
+	margin-left: 124px;
+}
+a{ 
+text-decoration:none; 
+color:#000000; 
+} 
+header li{
+	display: inline-block; 
+	padding: 0 40px 0 40px;
+	letter-spacing: 0px;
+	font-family: 'Arvo', serif;
+	font-style: bold;
+	
+}
+header ul{
+	list-style-type: none;
+	border:	#708090 solid 1px;
+	width: 900px;
+	margin-left: 200px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 10px;
+}
+header ul li a:hover{
+	 background-color:#D6D6D6;
+}
+header input{
+	margin-left: 150px;
+}
+main h1,p{
+	text-align: center;
+	font-family: 
+}
+main img{
+	width: 400px;
+	padding-left: 450px;
+}
+main nav img{
+	width: 90px;
+	padding-left: 100px;
+}
+main button{
+	margin-bottom: 20px;
+}
+#aventura{
+	width: 200px; 
+	height: 200px;
+	opacity: 0.75;
+	-moz-opacity: 0.75;
+	filter: alpha(opacity=75);
+	-webkit-filter: opacity(0.75);
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	image-rendering: auto;
+	margin-left: 100px;
+	padding: 0px;
+}
+#aventura:hover{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-filter: opacity(1);
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	image-rendering: auto;
+}
+.slide{
+	width: 900px;
+	height: 400px;
+	margin-left: 96px;
+	
+}	
+.desq{
+	text-align: center;
+	margin-left: 235px;
+	font-family: 'Special Elite', cursive;
+	color:#CD853F;
+}
+.theme{
+	text-align: center;
+	margin-left: 235px;
+	font-family: 'Special Elite', cursive;
+	color:#6495ED;
+}
+.book{
+	padding-left: 135px;
+}
+.name{
+	font-family: 'Graduate', cursive;
+	text-align: center;
+	margin-left: 530px;
+	font-size: 20px;
+	border:solid 1px black;
+    width: 251.988636px;
+	color: #9F2D2D;
+}
+.semana{
+	margin-left: 205px;
+	width: 900px;
+	height: 405px;
+}
+.sugestao{
+	text-align: center;
+	margin-left: 235px;
+	font-family: 'Special Elite', cursive;
+	color:#EE9572;
+}
+footer {
+ width: 99.9vw;
+ bottom: 0;
+ right: 0;
+ background: #f9f9f9;
+ color: black;
+ height: 100px;
+ display: flex;
+}
+#foot{
+	margin-right: 100px;
+}
+.final{
+	width: 100px; 
+	height: 100px;
+	margin-right: 750px;
+}
+.names{
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	margin-top: -70px;
+	margin-right: 170px;
+}
+.redes{
+	margin-left: 700px;
+	margin-top: -60px;
+	margin-right: 190px;
+}
+@media(max-width: 400px){
+	*{
+		box-sizing: border-box;
+	}
+	.all{
+		margin: 0;
+		padding: 10px;
+		width: 100%;
+	}
+}
+
